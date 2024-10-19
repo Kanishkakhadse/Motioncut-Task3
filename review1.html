@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Midnight Library Review</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bookworm Haven</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article class="book-review">
+            <h2>The Midnight Library</h2>
+            <p><strong>Author:</strong> Matt Haig</p>
+            <p><strong>Synopsis:</strong> In “The Midnight Library,” Matt Haig takes us on a profound journey through the infinite possibilities of life choices. Nora Seed finds herself in a library between life and death, where each book represents a different life she could have lived. The narrative beautifully explores themes of regret, hope, and the importance of choosing one’s own path.</p>
+            <p><strong>Rating:</strong> ★★★★★</p>
+            <h3>User Comments</h3>
+            <div class="comments" id="commentsSection">
+                <!-- Comments will be added here dynamically -->
+            </div>
+            <form id="commentForm">
+                <label for="userName">Name:</label>
+                <input type="text" id="userName" required>
+                <label for="userComment">Comment:</label>
+                <textarea id="userComment" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Bookworm Haven</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
